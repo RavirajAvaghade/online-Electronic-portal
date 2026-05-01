@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Customer Login</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Montserrat',sans-serif;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(135deg,#1e3c72,#2a5298);
+}
+
+/* Main Container */
+.container{
+    width:850px;
+    height:480px;
+    background:white;
+    display:flex;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 25px 50px rgba(0,0,0,0.3);
+}
+
+/* Left Side Panel */
+.left{
+    width:45%;
+    background:linear-gradient(135deg,#6a11cb,#2575fc);
+    color:white;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding:40px;
+    text-align:center;
+}
+
+.left h2{
+    font-size:30px;
+    margin-bottom:15px;
+}
+
+.left p{
+    font-size:14px;
+    opacity:0.9;
+}
+
+/* Right Login Panel */
+.right{
+    width:55%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.card{
+    width:320px;
+}
+
+.card h2{
+    margin-bottom:30px;
+    font-weight:700;
+    color:#2a5298;
+}
+
+/* Underline Input Style */
+.input-group{
+    margin:20px 0;
+}
+
+.input-group input{
+    width:100%;
+    padding:10px 5px;
+    border:none;
+    border-bottom:2px solid #ccc;
+    outline:none;
+    transition:0.3s;
+}
+
+.input-group input:focus{
+    border-bottom:2px solid #2575fc;
+}
+
+/* Button */
+button{
+    width:100%;
+    padding:12px;
+    margin-top:20px;
+    border:none;
+    border-radius:25px;
+    background:linear-gradient(45deg,#6a11cb,#2575fc);
+    color:white;
+    font-weight:600;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    box-shadow:0 10px 25px rgba(0,0,0,0.3);
+    transform:translateY(-3px);
+}
+
+.register{
+    margin-top:15px;
+    display:block;
+    text-align:center;
+    font-size:14px;
+    color:#2575fc;
+    text-decoration:none;
+}
+
+.register:hover{
+    text-decoration:underline;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="left">
+<h2>Welcome Back 👋</h2>
+<p>Access your account and explore premium products with secure login.</p>
+</div>
+
+<div class="right">
+<div class="card">
+
+<h2>Customer Login</h2>
+
+<form action="cust" method="post">
+
+<div class="input-group">
+<input type="text" name="uname" placeholder="Username" required>
+</div>
+
+<div class="input-group">
+<input type="password" name="pword" placeholder="Password" required>
+</div>
+
+<button type="submit">Login</button>
+
+</form>
+
+<a href="CustomerRegister.html" class="register">
+New Customer? Register Here
+</a>
+
+</div>
+</div>
+
+</div>
+
+</body>
+</html>
