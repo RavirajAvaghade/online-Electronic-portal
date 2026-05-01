@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Add Product</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Montserrat',sans-serif;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    overflow:hidden;
+    background:#000;
+}
+
+/* Background Image Layer */
+body::before{
+    content:"";
+    position:absolute;
+    width:100%;
+    height:100%;
+    background:
+    linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
+    url("https://images.unsplash.com/photo-1510557880182-3c6c9a7e6e4d?q=80&w=2400&auto=format&fit=crop")
+    no-repeat center center/cover;
+    animation:zoom 25s infinite alternate ease-in-out;
+    z-index:-1;
+}
+
+@keyframes zoom{
+    from{transform:scale(1);}
+    to{transform:scale(1.08);}
+}
+
+.card{
+    width:420px;
+    padding:40px;
+    border-radius:20px;
+    background:rgba(255,255,255,0.08);
+    backdrop-filter:blur(18px);
+    border:1px solid rgba(255,255,255,0.2);
+    box-shadow:0 25px 50px rgba(0,0,0,0.6);
+    color:white;
+}
+
+.card h2{
+    text-align:center;
+    margin-bottom:25px;
+    font-weight:600;
+    letter-spacing:1px;
+}
+
+.input-box{
+    margin-bottom:15px;
+}
+
+input{
+    width:100%;
+    padding:12px 15px;
+    border-radius:30px;
+    border:none;
+    outline:none;
+    background:rgba(255,255,255,0.15);
+    color:white;
+    font-size:14px;
+    transition:0.3s;
+}
+
+input::placeholder{
+    color:#ddd;
+}
+
+input:focus{
+    background:rgba(255,255,255,0.25);
+    box-shadow:0 0 15px rgba(255,255,255,0.3);
+}
+
+button{
+    width:100%;
+    padding:12px;
+    margin-top:15px;
+    border:none;
+    border-radius:30px;
+    background:linear-gradient(45deg,#00c6ff,#0072ff);
+    color:white;
+    font-size:15px;
+    font-weight:600;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    transform:scale(1.05);
+    box-shadow:0 0 20px rgba(0,123,255,0.8);
+}
+
+</style>
+
+<script>
+function validateForm() {
+
+    let pcode = document.forms["productForm"]["pcode"].value;
+    let pname = document.forms["productForm"]["pname"].value;
+    let price = document.forms["productForm"]["pprice"].value;
+    let qty = document.forms["productForm"]["pqty"].value;
+
+    if(pcode === "" || pname === "" || price === "" || qty === ""){
+        alert("All fields are required!");
+        return false;
+    }
+
+    if(isNaN(price)){
+        alert("Price must be a number!");
+        return false;
+    }
+
+    if(isNaN(qty)){
+        alert("Quantity must be a number!");
+        return false;
+    }
+
+    if(price <= 0){
+        alert("Price must be greater than 0");
+        return false;
+    }
+
+    if(qty <= 0){
+        alert("Quantity must be greater than 0");
+        return false;
+    }
+
+    return true;
+}
+</script>
+
+</head>
+
+<body>
+
+<div class="card">
+    <h2>➕ Add Product</h2>
+
+    <form name="productForm" action="aps" method="post" onsubmit="return validateForm()">
+
+        <div class="input-box">
+            <input type="text" name="pcode" placeholder="Product Code">
+        </div>
+
+        <div class="input-box">
+            <input type="text" name="pname" placeholder="Product Name">
+        </div>
+
+        <div class="input-box">
+            <input type="text" name="pcomp" placeholder="Company Name">
+        </div>
+
+        <div class="input-box">
+            <input type="text" name="pprice" placeholder="Price (₹)">
+        </div>
+
+        <div class="input-box">
+            <input type="text" name="pqty" placeholder="Quantity">
+        </div>
+
+        <button type="submit">Add Product</button>
+
+    </form>
+</div>
+
+</body>
+</html>
