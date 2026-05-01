@@ -2,7 +2,6 @@
 
 The project demonstrates the practical implementation of **Java-based web technologies** along with frontend development, making it a complete **e-commerce solution**.
 
----## 🎯 Objectives
 
 
 
