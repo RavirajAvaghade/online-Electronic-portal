@@ -4,7 +4,6 @@ The project demonstrates the practical implementation of **Java-based web techno
 
 ---
 
-## 🎯 Objectives
 
 * To build a real-world **e-commerce web application**
 * To understand integration between **frontend & backend**
