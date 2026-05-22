@@ -49,7 +49,7 @@ The project demonstrates the practical implementation of **Java-based web techno
 * Advanced Java (JSP & Servlets)
 * JDBC
 
-### 🗄️ Database
+### 🗄️ Database ###
 
 * SQL
 
