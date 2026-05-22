@@ -82,7 +82,7 @@ SQL Database
 
 ---
 
-## 📂 Project Structure
+## 📂 Project Structure  ###
 
 ```
 Online-Electronics-Portal/
