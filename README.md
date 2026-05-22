@@ -73,7 +73,6 @@ JDBC (Database Connectivity)
 SQL Database
 ```
 
----
 
 ## 🔐 Authentication System ###
 
