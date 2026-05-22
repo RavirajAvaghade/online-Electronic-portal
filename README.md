@@ -146,7 +146,7 @@ http://localhost:8080/OnlineElectronicsPortal
 
 ---
 
-## 🚀 Future Enhancements
+## 🚀 Future Enhancements ###
 
 * 💳 Online Payment Gateway Integration
 * 📦 Order Tracking System
