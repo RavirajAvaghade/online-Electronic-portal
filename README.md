@@ -155,7 +155,7 @@ http://localhost:8080/OnlineElectronicsPortal
 
 ---
 
-## 💡 Learning Outcomes
+## 💡 Learning Outcomes ###
 
 * Hands-on experience with **JSP & Servlets**
 * Understanding of **MVC architecture**
