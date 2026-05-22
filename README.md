@@ -6,7 +6,7 @@ The project demonstrates the practical implementation of **Java-based web techno
 
 
 
-* To build a real-world **e-commerce web application**
+* To build a real-world **e-commerce web application****
 * To understand integration between **frontend & backend**
 * To implement **JSP, Servlets, and JDBC connectivity**
 * To perform **CRUD operations** using SQL database
