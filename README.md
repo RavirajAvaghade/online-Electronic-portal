@@ -15,7 +15,7 @@ The project demonstrates the practical implementation of **Java-based web techno
 
 ## ✨ Key Features ##
 
-### 👤 Customer Module
+### 👤 Customer Module ###
 
 * 🔐 User Registration & Login
 * 🛍️ Browse Electronic Products
