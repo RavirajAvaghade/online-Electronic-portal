@@ -59,7 +59,7 @@ The project demonstrates the practical implementation of **Java-based web techno
 
 ---
 
-## 🏗️ System Architecture
+## 🏗️ System Architecture ###
 
 ```
 Client (Browser)
