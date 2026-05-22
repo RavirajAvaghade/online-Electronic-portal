@@ -37,7 +37,7 @@ The project demonstrates the practical implementation of **Java-based web techno
 
 ## 🧑‍💻 Tech Stack ###
 
-### 🎨 Frontend 
+### 🎨 Frontend  ###
 
 * HTML5
 * CSS3
