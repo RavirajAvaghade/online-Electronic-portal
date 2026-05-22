@@ -53,7 +53,7 @@ The project demonstrates the practical implementation of **Java-based web techno
 
 * SQL
 
-### 🌐 Server
+### 🌐 Server   ###
 
 * Apache Tomcat
 
