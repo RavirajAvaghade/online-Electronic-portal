@@ -117,7 +117,7 @@ Online-Electronics-Portal/
 
 ---
 
-### 🚀 Steps to Run
+### 🚀 Steps to Run ###
 
 1. Clone the repository
 
