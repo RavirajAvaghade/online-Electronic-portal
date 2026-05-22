@@ -43,7 +43,7 @@ The project demonstrates the practical implementation of **Java-based web techno
 * CSS3
 * JavaScript
 
-### ⚙️ Backend  
+### ⚙️ Backend  ##
 
 * Core Java
 * Advanced Java (JSP & Servlets)
