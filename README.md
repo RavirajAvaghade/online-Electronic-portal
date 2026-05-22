@@ -75,7 +75,7 @@ SQL Database
 
 ---
 
-## 🔐 Authentication System
+## 🔐 Authentication System ###
 
 * **Admin Login:** Full control over product management
 * **Customer Login:** Shopping and browsing functionality
