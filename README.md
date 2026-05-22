@@ -13,7 +13,7 @@ The project demonstrates the practical implementation of **Java-based web techno
 
 ---
 
-## ✨ Key Features ##
+### ✨ Key Features ###
 
 ### 👤 Customer Module ###
 
