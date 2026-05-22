@@ -37,13 +37,13 @@ The project demonstrates the practical implementation of **Java-based web techno
 
 ## 🧑‍💻 Tech Stack ###
 
-### 🎨 Frontend
+### 🎨 Frontend 
 
 * HTML5
 * CSS3
 * JavaScript
 
-### ⚙️ Backend
+### ⚙️ Backend  
 
 * Core Java
 * Advanced Java (JSP & Servlets)
@@ -164,7 +164,7 @@ http://localhost:8080/OnlineElectronicsPortal
 
 ---
 
-## 👨‍💻 Author
+## 👨‍💻 Author ##
 
 **Raviraj Yuvraj Avghade**
 💼 Full Stack Developer
