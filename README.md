@@ -25,7 +25,7 @@ The project demonstrates the practical implementation of **Java-based web techno
 
 ---
 
-### 🛠️ Admin Module
+### 🛠️ Admin Module ###
 
 * 🔑 Secure Admin Login
 * ➕ Add New Products
